@@ -1,2 +1,10 @@
 # Jupyter Notebook
 .ipynb_checkpoints/
+
+# model weights
+*.pt
+*.pth
+*.ckpt
+
+# checkpoints
+checkpoints/
