@@ -14,6 +14,7 @@ pinned: false
 
 
 # 앱 실행 : https://huggingface.co/spaces/kod89/QC_outlier_CAPA_v1
+* same data 업로드는 sample_qc_data.csv
 
 
 # QC Analysis Workflow
