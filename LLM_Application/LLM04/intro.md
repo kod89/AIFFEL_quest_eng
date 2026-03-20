@@ -6,6 +6,13 @@ app_file: app.py
 pinned: false
 ---
 
+오픈 소스 환경인 허깅스페이스로 배포 -> API KEY 보안 문제로 인해 우선은 외부 API 없이도 돌아가는 1차 버전 구현
+즉, 1차 버전은 규칙 기반 텍스트 생성으로 구현해라.
+이후 확장 가능하도록 llm_interface.py 파일을 두어 OpenAI/Gemini 등 LLM 연동이 쉬운 구조 -> LLM 연결하여 RAG 구현
+
+앱 실행 : https://huggingface.co/spaces/kod89/QC_outlier_CAPA_v1
+
+
 # QC Analysis Workflow
 
 QC 시험 데이터의 이상치를 탐지하고, 반복 패턴 분석을 통해 root cause 가설과 CAPA를 추천하는 Gradio 기반 분석 워크플로우 프로젝트입니다.
