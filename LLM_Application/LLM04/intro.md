@@ -10,7 +10,7 @@ pinned: false
 
 즉, 1차 버전은 규칙 기반 텍스트 생성
 
-이후 확장 가능하도록 llm_interface.py 파일을 두어 OpenAI/Gemini 등 LLM 연동이 쉬운 구조 -> LLM 연결하여 RAG 구조로 계획
+이후 확장 가능하도록 llm_interface.py 파일을 두어 OpenAI/Gemini 등 LLM 연동이 쉬운 구조 -> LLM 연결하여 agent화 및 참조 문서 업로드 기능화하여 RAG 구조로 확장할 계획
 
 
 # 앱 실행 : https://huggingface.co/spaces/kod89/QC_outlier_CAPA_v1
